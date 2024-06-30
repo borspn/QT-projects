@@ -1,4 +1,4 @@
-name: build test
+name: Calculator build test
  
 on: push 
 
