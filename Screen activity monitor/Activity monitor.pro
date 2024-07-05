@@ -10,13 +10,16 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    screencapture.cpp \
+    screencompare.cpp \
+    ui.cpp
 
 HEADERS += \
-    mainwindow.h
+    screencapture.h \
+    screencompare.h \
+    ui.h
 
-FORMS += \
-    mainwindow.ui
+FORMS +=
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
